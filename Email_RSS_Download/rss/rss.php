@@ -9,11 +9,11 @@ use Suin\RSSWriter\Item;
 header("Content-type: text/xml");
 // init mysql
 $db = new MysqliDb (Array(
-    'host' => '192.168.50.230',         # MySQL Host IP/name
-    'username' => 'test',               # MySQL account
-    'password' => 'mysql_password',     # MySQL account password
+    'host' => 'localhost',         # MySQL Host IP/name
+    'username' => 'root',               # MySQL account
+    'password' => 'root',     # MySQL account password
     'db' => 'test',                     # MySQL Schema name
-    'port' => 3307,                     # MySQL Host Port
+    'port' => 3306,                     # MySQL Host Port
     'charset' => 'utf8'
 ));
  
@@ -27,8 +27,8 @@ $feed = new Feed();
 // Set channel info
 $channel = new Channel();
 $channel
-    ->title("my rss service")
-    ->description("cool rss for cool kids")
+    ->title("Email -> RSS service")
+    ->description("RSS Service for Download Station")
     ->url('http://xjzz.tk/')
     ->appendTo($feed);
  

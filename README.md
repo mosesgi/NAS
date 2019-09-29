@@ -12,6 +12,9 @@
 - NAS中安装MySQL, PHP, Nginx/Apache
 - MySQL创建schema, 导入表mail_rss.sql
 - 将rss文件夹放置在Nginx Root path, 如web
+#### 代码参考自
+- https://blog.minirplus.com/6111/
+- https://blog.csdn.net/sweeper_freedoman/article/details/88607210
 
 ## IP_Email_Updater
 #### 功能
