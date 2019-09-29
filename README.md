@@ -15,6 +15,7 @@
 #### 代码参考自
 - https://blog.minirplus.com/6111/
 - https://blog.csdn.net/sweeper_freedoman/article/details/88607210
+- https://www.code-learner.com/python-use-pop3-to-read-email-example/
 
 ## IP_Email_Updater
 #### 功能
